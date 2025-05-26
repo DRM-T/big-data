@@ -1,0 +1,803 @@
+home_id,timestamp,device_id,device_type,room,status,power_watt,user_present,activity,indoor_temp,outdoor_temp,humidity,light_level,day_of_week,hour_of_day,price_kWh,predicted_power,suggestion
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,1.32,"[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang tiêu thụ công suất cao bất thường (125W). Hãy kiểm tra thiết bị hoặc cài đặt."
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,-2.08,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,-0.69,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,-1.95,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,6.44,"[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang tiêu thụ công suất cao bất thường (153W). Hãy kiểm tra thiết bị hoặc cài đặt."
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,-0.67,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,-0.1,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,-0.64,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,5.68,"[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang tiêu thụ công suất cao bất thường (125W). Hãy kiểm tra thiết bị hoặc cài đặt."
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,-3.79,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.03,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,-2.17,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,5.97,"[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang tiêu thụ công suất cao bất thường (153W). Hãy kiểm tra thiết bị hoặc cài đặt."
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,-0.59,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,-4.13,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+4,2024-01-01T00:00:00,light4,light,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+5,2024-01-01T00:00:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,9.2,10.2,36.5,77.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T00:00:00,light6,light,living_room,on,154.8,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+6,2024-01-01T00:00:00,tv6,tv,living_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+6,2024-01-01T00:00:00,washer6,washer,laundry_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+7,2024-01-01T00:00:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+7,2024-01-01T00:00:00,light7,light,living_room,on,168.58,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+7,2024-01-01T00:00:00,fridge7,fridge,kitchen,on,287.36,1,idle,5.9,5.3,75.6,16.7,0,0,1500,241.51,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+8,2024-01-01T00:00:00,air_conditioner8,air_conditioner,bedroom,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+8,2024-01-01T00:00:00,washer8,washer,laundry_room,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+9,2024-01-01T00:00:00,tv9,tv,living_room,off,0.0,1,idle,3.6,4.2,100.0,64.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,air_conditioner1,air_conditioner,bedroom,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+1,2024-01-01T00:00:00,fridge1,fridge,kitchen,on,245.78,1,idle,10.0,11.4,53.0,94.2,0,0,1500,240.41,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+2,2024-01-01T00:00:00,fridge2,fridge,kitchen,on,254.13,1,idle,10.6,11.8,58.6,60.1,0,0,1500,250.56,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+3,2024-01-01T00:00:00,air_conditioner3,air_conditioner,bedroom,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+4,2024-01-01T00:00:00,fridge4,fridge,kitchen,on,269.73,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,286.63,[2024-01-01 00:00:00] Bạn đang ngủ nhưng thiết bị 'fridge' tại kitchen vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+5,2024-01-01T00:00:00,washer5,washer,laundry_room,off,0.0,1,sleeping,9.2,10.2,36.5,77.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+7,2024-01-01T00:00:00,tv7,tv,living_room,off,0.0,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+8,2024-01-01T00:00:00,light8,light,living_room,on,118.7,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+8,2024-01-01T00:00:00,tv8,tv,living_room,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+9,2024-01-01T00:00:00,air_conditioner9,air_conditioner,bedroom,off,0.0,1,idle,3.6,4.2,100.0,64.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+9,2024-01-01T00:00:00,light9,light,living_room,on,198.08,1,idle,3.6,4.2,100.0,64.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+9,2024-01-01T00:00:00,fridge9,fridge,kitchen,on,210.79,1,idle,3.6,4.2,100.0,64.9,0,0,1500,228.7,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+10,2024-01-01T00:00:00,air_conditioner10,air_conditioner,bedroom,off,0.0,1,sleeping,9.1,10.6,51.8,47.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+10,2024-01-01T00:00:00,light10,light,living_room,off,0.0,1,sleeping,9.1,10.6,51.8,47.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+10,2024-01-01T00:00:00,tv10,tv,living_room,off,0.0,1,sleeping,9.1,10.6,51.8,47.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+10,2024-01-01T00:00:00,fridge10,fridge,kitchen,on,238.47,1,sleeping,9.1,10.6,51.8,47.2,0,0,1500,263.99,[2024-01-01 00:00:00] Bạn đang ngủ nhưng thiết bị 'fridge' tại kitchen vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+1,2024-01-01T00:15:00,air_conditioner1,air_conditioner,bedroom,off,0.0,1,idle,9.7,10.2,40.0,37.3,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+3,2024-01-01T00:00:00,light3,light,living_room,on,192.54,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+3,2024-01-01T00:00:00,fridge3,fridge,kitchen,on,269.45,1,idle,6.6,5.8,70.5,1.5,0,0,1500,213.64,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+4,2024-01-01T00:00:00,air_conditioner4,air_conditioner,bedroom,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+4,2024-01-01T00:00:00,washer4,washer,laundry_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+5,2024-01-01T00:00:00,light5,light,living_room,off,0.0,1,sleeping,9.2,10.2,36.5,77.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+5,2024-01-01T00:00:00,tv5,tv,living_room,off,0.0,1,sleeping,9.2,10.2,36.5,77.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+5,2024-01-01T00:00:00,fridge5,fridge,kitchen,on,291.67,1,sleeping,9.2,10.2,36.5,77.9,0,0,1500,290.02,[2024-01-01 00:00:00] Bạn đang ngủ nhưng thiết bị 'fridge' tại kitchen vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+6,2024-01-01T00:00:00,air_conditioner6,air_conditioner,bedroom,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T00:00:00,fridge6,fridge,kitchen,on,251.57,1,idle,6.3,5.4,72.5,57.7,0,0,1500,228.7,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+7,2024-01-01T00:00:00,washer7,washer,laundry_room,off,0.0,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+8,2024-01-01T00:00:00,fridge8,fridge,kitchen,on,251.25,1,idle,2.7,4.4,77.7,37.6,0,0,1500,230.76,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+9,2024-01-01T00:00:00,washer9,washer,laundry_room,off,0.0,1,idle,3.6,4.2,100.0,64.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+10,2024-01-01T00:00:00,washer10,washer,laundry_room,off,0.0,1,sleeping,9.1,10.6,51.8,47.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+4,2024-01-01T00:00:00,light4,light,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+5,2024-01-01T00:00:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,9.2,10.2,36.5,77.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T00:00:00,light6,light,living_room,on,154.8,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+6,2024-01-01T00:00:00,tv6,tv,living_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+6,2024-01-01T00:00:00,washer6,washer,laundry_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+7,2024-01-01T00:00:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+7,2024-01-01T00:00:00,light7,light,living_room,on,168.58,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+7,2024-01-01T00:00:00,fridge7,fridge,kitchen,on,287.36,1,idle,5.9,5.3,75.6,16.7,0,0,1500,239.77,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+8,2024-01-01T00:00:00,air_conditioner8,air_conditioner,bedroom,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+8,2024-01-01T00:00:00,washer8,washer,laundry_room,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+9,2024-01-01T00:00:00,tv9,tv,living_room,off,0.0,1,idle,3.6,4.2,100.0,64.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,air_conditioner1,air_conditioner,bedroom,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+1,2024-01-01T00:00:00,fridge1,fridge,kitchen,on,245.78,1,idle,10.0,11.4,53.0,94.2,0,0,1500,239.77,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Nhiệt độ ngoài trời chỉ 11.8°C. Có thể không cần bật điều hòa.
+4,2024-01-01T00:00:00,light4,light,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm.
+5,2024-01-01T00:00:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,9.2,10.2,36.5,77.9,0,0,1500,0.0,[2024-01-01 00:00:00] Nhiệt độ ngoài trời chỉ 10.2°C. Có thể không cần bật điều hòa.
+7,2024-01-01T00:00:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Nhiệt độ ngoài trời chỉ 5.3°C. Có thể không cần bật điều hòa.
+8,2024-01-01T00:00:00,air_conditioner8,air_conditioner,bedroom,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Nhiệt độ ngoài trời chỉ 4.4°C. Có thể không cần bật điều hòa.
+1,2024-01-01T00:00:00,air_conditioner1,air_conditioner,bedroom,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Nhiệt độ ngoài trời chỉ 11.4°C. Có thể không cần bật điều hòa.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] TV đang bật nhưng bạn không xem. Hãy tắt để tiết kiệm điện.
+3,2024-01-01T00:00:00,air_conditioner3,air_conditioner,bedroom,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Nhiệt độ ngoài trời chỉ 5.8°C. Có thể không cần bật điều hòa.
+4,2024-01-01T00:00:00,fridge4,fridge,kitchen,on,269.73,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,286.42,"[2024-01-01 00:00:00] Độ ẩm cao (100.0%). Kiểm tra thiết bị điện để đảm bảo an toàn.
+[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm."
+9,2024-01-01T00:00:00,air_conditioner9,air_conditioner,bedroom,off,0.0,1,idle,3.6,4.2,100.0,64.9,0,0,1500,0.0,[2024-01-01 00:00:00] Nhiệt độ ngoài trời chỉ 4.2°C. Có thể không cần bật điều hòa.
+9,2024-01-01T00:00:00,light9,light,living_room,on,198.08,1,idle,3.6,4.2,100.0,64.9,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm cao (100.0%). Kiểm tra thiết bị điện để đảm bảo an toàn.
+9,2024-01-01T00:00:00,fridge9,fridge,kitchen,on,210.79,1,idle,3.6,4.2,100.0,64.9,0,0,1500,228.46,[2024-01-01 00:00:00] Độ ẩm cao (100.0%). Kiểm tra thiết bị điện để đảm bảo an toàn.
+10,2024-01-01T00:00:00,air_conditioner10,air_conditioner,bedroom,off,0.0,1,sleeping,9.1,10.6,51.8,47.2,0,0,1500,0.0,[2024-01-01 00:00:00] Nhiệt độ ngoài trời chỉ 10.6°C. Có thể không cần bật điều hòa.
+1,2024-01-01T00:15:00,air_conditioner1,air_conditioner,bedroom,off,0.0,1,idle,9.7,10.2,40.0,37.3,0,0,1500,0.0,[2024-01-01 00:15:00] Nhiệt độ ngoài trời chỉ 10.2°C. Có thể không cần bật điều hòa.
+4,2024-01-01T00:00:00,air_conditioner4,air_conditioner,bedroom,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,"[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm.
+[2024-01-01 00:00:00] Nhiệt độ ngoài trời chỉ 4.8°C. Có thể không cần bật điều hòa."
+4,2024-01-01T00:00:00,washer4,washer,laundry_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm.
+6,2024-01-01T00:00:00,air_conditioner6,air_conditioner,bedroom,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Nhiệt độ ngoài trời chỉ 5.4°C. Có thể không cần bật điều hòa.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] TV đang bật dù bạn không xem. Hãy tắt để tập trung và tiết kiệm điện.
+4,2024-01-01T00:00:00,air_conditioner4,air_conditioner,bedroom,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,washer4,washer,laundry_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,fridge4,fridge,kitchen,on,269.73,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,287.37,[2024-01-01 00:00:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:15:00,washer4,washer,laundry_room,on,709.44,1,sleeping,9.3,10.6,49.5,43.7,0,0,1500,0.0,[2024-01-01 00:15:00] Bạn đang ngủ nhưng thiết bị 'washer' tại laundry_room vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+7,2024-01-01T00:15:00,fridge7,fridge,kitchen,on,309.45,1,sleeping,6.2,4.3,100.0,82.0,0,0,1500,279.05,[2024-01-01 00:15:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:15:00,washer7,washer,laundry_room,off,0.0,1,sleeping,6.2,4.3,100.0,82.0,0,0,1500,0.0,[2024-01-01 00:15:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+9,2024-01-01T00:15:00,light9,light,living_room,on,112.09,1,idle,7.0,5.9,91.3,93.4,0,0,1500,154.23,[2024-01-01 00:15:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:15:00,light7,light,living_room,off,0.0,1,sleeping,6.2,4.3,100.0,82.0,0,0,1500,0.0,[2024-01-01 00:15:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:15:00,tv7,tv,living_room,off,0.0,1,sleeping,6.2,4.3,100.0,82.0,0,0,1500,0.0,[2024-01-01 00:15:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+9,2024-01-01T00:15:00,tv9,tv,living_room,off,0.0,1,idle,7.0,5.9,91.3,93.4,0,0,1500,180.74,[2024-01-01 00:15:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+9,2024-01-01T00:15:00,fridge9,fridge,kitchen,on,277.05,1,idle,7.0,5.9,91.3,93.4,0,0,1500,346.23,[2024-01-01 00:15:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:15:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,sleeping,6.2,4.3,100.0,82.0,0,0,1500,0.0,[2024-01-01 00:15:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+9,2024-01-01T00:15:00,air_conditioner9,air_conditioner,bedroom,off,0.0,1,idle,7.0,5.9,91.3,93.4,0,0,1500,0.0,[2024-01-01 00:15:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+9,2024-01-01T00:15:00,washer9,washer,laundry_room,off,0.0,1,idle,7.0,5.9,91.3,93.4,0,0,1500,0.0,[2024-01-01 00:15:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,251.33,[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'fridge' tại kitchen vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,251.27,[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'fridge' tại kitchen vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,light4,light,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,tv4,tv,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,251.39,[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'fridge' tại kitchen vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+1,2024-01-01T00:00:00,fridge1,fridge,kitchen,on,280.72,1,sleeping,10.0,11.4,53.0,94.2,0,0,1500,242.53,[2024-01-01 00:00:00] Bạn đang ngủ nhưng thiết bị 'fridge' tại kitchen vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+3,2024-01-01T00:30:00,air_conditioner3,air_conditioner,bedroom,on,710.55,1,sleeping,8.8,10.3,64.0,57.0,0,0,1500,0.0,"[2024-01-01 00:30:00] Thiết bị 'air_conditioner' tại bedroom đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'air_conditioner' tại bedroom vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện."
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room' đang hoạt động bình thường.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room' đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,250.72,[2024-01-01 00:30:00] Thiết bị 'fridge' tại kitchen' đang hoạt động bình thường.
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room' đang hoạt động bình thường.
+4,2024-01-01T00:30:00,light4,light,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room' đang hoạt động bình thường.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] TV đang bật dù bạn không xem. Hãy tắt để tập trung và tiết kiệm điện.
+4,2024-01-01T00:00:00,light4,light,living_room,on,134.25,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:30:00,air_conditioner3,air_conditioner,bedroom,on,710.55,1,sleeping,8.8,10.3,64.0,57.0,0,0,1500,0.0,[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'air_conditioner' tại bedroom vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] TV đang bật dù bạn không xem. Hãy tắt để tập trung và tiết kiệm điện.
+4,2024-01-01T00:00:00,fridge4,fridge,kitchen,on,229.15,1,idle,5.7,4.8,100.0,56.8,0,0,1500,282.9,[2024-01-01 00:00:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,250.22,[2024-01-01 00:30:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:30:00,light4,light,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:30:00,tv4,tv,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,251.9,[2024-01-01 00:30:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:30:00,light4,light,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:30:00,tv4,tv,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] TV đang bật dù bạn không xem. Hãy tắt để tập trung và tiết kiệm điện.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,11.6,10.2,44.5,58.2,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,on,134.25,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (True%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0,[2024-01-01 00:30:00] Độ ẩm đang cao (49.2%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0,[2024-01-01 00:00:00] TV đang bật dù bạn không xem. Hãy tắt để tập trung và tiết kiệm điện.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0,[2024-01-01 00:00:00] TV đang bật dù bạn không xem. Hãy tắt để tập trung và tiết kiệm điện.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,on,134.25,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,252.04,[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'fridge' tại kitchen vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] TV đang bật dù bạn không xem. Hãy tắt để tập trung và tiết kiệm điện.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,on,134.25,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,light6,light,living_room,on,154.8,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,tv6,tv,living_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,washer6,washer,laundry_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,light7,light,living_room,on,168.58,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,fridge7,fridge,kitchen,on,287.36,1,idle,5.9,5.3,75.6,16.7,0,0,1500,242.47,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,light6,light,living_room,on,154.8,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,tv6,tv,living_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,washer6,washer,laundry_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,light7,light,living_room,on,168.58,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,fridge7,fridge,kitchen,on,287.36,1,idle,5.9,5.3,75.6,16.7,0,0,1500,242.47,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:15:00,tv8,tv,living_room,off,0.0,1,sleeping,6.2,5.7,73.3,30.1,0,0,1500,0.0,[2024-01-01 00:15:00] Độ ẩm đang cao (73.3%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:15:00,fridge8,fridge,kitchen,on,247.98,1,sleeping,6.2,5.7,73.3,30.1,0,0,1500,272.27,[2024-01-01 00:15:00] Độ ẩm đang cao (73.3%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:15:00,washer8,washer,laundry_room,off,0.0,1,sleeping,6.2,5.7,73.3,30.1,0,0,1500,0.0,[2024-01-01 00:15:00] Độ ẩm đang cao (73.3%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,6.3,5.0,72.7,97.5,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (72.7%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+5,2024-01-01T00:30:00,washer5,washer,laundry_room,on,658.5,1,sleeping,9.2,10.2,53.2,51.6,0,0,1500,0.0,[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'washer' tại laundry_room vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+9,2024-01-01T00:30:00,light9,light,living_room,on,112.23,1,sleeping,4.4,4.9,93.2,99.8,0,0,1500,0.0,[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'light' tại living_room vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+10,2024-01-01T00:45:00,tv10,tv,living_room,off,0.0,1,sleeping,6.7,4.9,74.9,16.8,0,0,1500,0.0,[2024-01-01 00:45:00] Độ ẩm đang cao (74.9%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+10,2024-01-01T00:45:00,washer10,washer,laundry_room,off,0.0,1,sleeping,6.7,4.9,74.9,16.8,0,0,1500,0.0,[2024-01-01 00:45:00] Độ ẩm đang cao (74.9%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T01:00:00,washer6,washer,laundry_room,on,661.32,1,sleeping,10.5,10.6,53.3,77.3,0,1,1500,0.0,[2024-01-01 01:00:00] Bạn đang ngủ nhưng thiết bị 'washer' tại laundry_room vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+7,2024-01-01T01:00:00,light7,light,living_room,off,0.0,1,sleeping,6.2,4.4,86.2,95.7,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (86.2%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,light8,light,living_room,off,0.0,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,tv8,tv,living_room,off,0.0,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,fridge8,fridge,kitchen,on,249.47,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,215.84,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,washer8,washer,laundry_room,off,0.0,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T01:15:00,tv6,tv,living_room,off,0.0,1,sleeping,11.6,11.2,70.6,4.7,0,1,1500,0.0,[2024-01-01 01:15:00] Độ ẩm đang cao (70.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,250.3,[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'fridge' tại kitchen vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,250.3,[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'fridge' tại kitchen vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,
+4,2024-01-01T00:30:00,light4,light,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,
+4,2024-01-01T00:30:00,tv4,tv,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,
+1,2024-01-01T00:00:00,air_conditioner1,air_conditioner,bedroom,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,
+1,2024-01-01T00:00:00,fridge1,fridge,kitchen,on,245.78,1,idle,10.0,11.4,53.0,94.2,0,0,1500,237.53,
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang bật nhưng không cần thiết. Hãy tắt để tiết kiệm điện.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,sleeping,10.0,11.4,53.0,94.2,0,0,1500,0.0,
+1,2024-01-01T00:00:00,fridge1,fridge,kitchen,on,280.72,1,sleeping,10.0,11.4,53.0,94.2,0,0,1500,243.11,[2024-01-01 00:00:00] Bạn đang ngủ nhưng thiết bị 'fridge' tại kitchen vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+1,2024-01-01T00:00:00,fridge1,fridge,kitchen,on,280.72,1,sleeping,10.0,11.4,53.0,94.2,0,0,1500,243.11,[2024-01-01 00:00:00] Bạn đang ngủ nhưng thiết bị 'fridge' tại kitchen vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,11.6,10.2,44.5,58.2,0,0,1500,0.0,
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0,[2024-01-01 00:00:00] TV đang bật dù bạn không xem. Hãy tắt để tập trung và tiết kiệm điện.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0,[2024-01-01 00:00:00] TV đang bật dù bạn không xem. Hãy tắt để tập trung và tiết kiệm điện.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,on,134.25,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0,"[2024-01-01 00:30:00] Đây là giờ điện có thể rẻ hơn (Giá: 1500 VND/kWh). Nếu có đồ cần giặt, bạn có thể tranh thủ giặt.
+[2024-01-01 00:30:00] Độ ẩm trong nhà đang ở mức 73.8%. Nếu cảm thấy khó chịu, hãy xem xét việc thông gió hoặc sử dụng máy hút ẩm."
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0,"[2024-01-01 00:30:00] Đây là giờ điện có thể rẻ hơn (Giá: 1500 VND/kWh). Nếu có đồ cần giặt, bạn có thể tranh thủ giặt."
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0,"[2024-01-01 00:00:00] Đây là giờ điện có thể rẻ hơn (Giá: 1500 VND/kWh). Nếu có đồ cần giặt, bạn có thể tranh thủ giặt."
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0,"[2024-01-01 00:00:00] Đã khá khuya (0h), bạn vẫn đang xem TV. Hãy xem xét nghỉ ngơi để đảm bảo sức khỏe.
+[2024-01-01 00:00:00] TV tại living_room đang bật dù bạn có thể không xem (hoạt động: idle). Hãy tắt nếu không cần thiết."
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0,[2024-01-01 00:00:00] TV đang bật dù bạn không xem. Hãy tắt để tập trung và tiết kiệm điện.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,251.61,[2024-01-01 00:30:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,249.98,[2024-01-01 00:30:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,light4,light,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,tv4,tv,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,air_conditioner1,air_conditioner,bedroom,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,fridge1,fridge,kitchen,on,245.78,1,idle,10.0,11.4,53.0,94.2,0,0,1500,242.88,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] TV đang bật dù bạn không xem. Hãy tắt để tập trung và tiết kiệm điện.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,250.68,[2024-01-01 00:30:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,light4,light,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,tv4,tv,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,air_conditioner1,air_conditioner,bedroom,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,fridge1,fridge,kitchen,on,245.78,1,idle,10.0,11.4,53.0,94.2,0,0,1500,239.7,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] TV đang bật dù bạn không xem. Hãy tắt để tập trung và tiết kiệm điện.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,sleeping,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,fridge1,fridge,kitchen,on,280.72,1,sleeping,10.0,11.4,53.0,94.2,0,0,1500,241.97,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,11.6,10.2,44.5,58.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,on,134.25,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+5,2024-01-01T00:00:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,idle,8.6,10.5,67.0,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+5,2024-01-01T00:00:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,9.2,10.2,36.5,77.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T00:00:00,light6,light,living_room,on,154.8,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,tv6,tv,living_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,washer6,washer,laundry_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,light7,light,living_room,on,168.58,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,fridge7,fridge,kitchen,on,287.36,1,idle,5.9,5.3,75.6,16.7,0,0,1500,239.7,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:00:00,air_conditioner8,air_conditioner,bedroom,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+8,2024-01-01T00:00:00,washer8,washer,laundry_room,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+5,2024-01-01T00:00:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,9.2,10.2,36.5,77.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T00:00:00,light6,light,living_room,on,154.8,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,tv6,tv,living_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,washer6,washer,laundry_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,light7,light,living_room,on,168.58,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,fridge7,fridge,kitchen,on,287.36,1,idle,5.9,5.3,75.6,16.7,0,0,1500,239.7,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:00:00,air_conditioner8,air_conditioner,bedroom,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+8,2024-01-01T00:00:00,washer8,washer,laundry_room,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+9,2024-01-01T00:00:00,tv9,tv,living_room,off,0.0,1,idle,3.6,4.2,100.0,64.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:15:00,washer2,washer,laundry_room,off,0.0,1,sleeping,8.7,10.3,57.4,88.6,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:15:00,tv3,tv,living_room,off,0.0,1,idle,12.1,11.2,45.7,15.7,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:15:00,air_conditioner4,air_conditioner,bedroom,off,0.0,1,sleeping,9.7,10.4,53.3,84.4,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+5,2024-01-01T00:15:00,light5,light,living_room,off,0.0,1,sleeping,11.6,10.1,46.7,40.1,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+5,2024-01-01T00:15:00,fridge5,fridge,kitchen,on,257.01,1,sleeping,11.6,10.1,46.7,40.1,0,0,1500,288.58,[2024-01-01 00:15:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+6,2024-01-01T00:15:00,air_conditioner6,air_conditioner,bedroom,off,0.0,1,sleeping,9.8,10.7,60.4,37.7,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T00:15:00,light6,light,living_room,off,0.0,1,sleeping,9.8,10.7,60.4,37.7,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+6,2024-01-01T00:15:00,fridge6,fridge,kitchen,on,301.15,1,sleeping,9.8,10.7,60.4,37.7,0,0,1500,263.52,[2024-01-01 00:15:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+7,2024-01-01T00:15:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,idle,13.2,11.8,40.2,98.8,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+7,2024-01-01T00:15:00,tv7,tv,living_room,off,0.0,1,idle,13.2,11.8,40.2,98.8,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+8,2024-01-01T00:15:00,tv8,tv,living_room,off,0.0,1,sleeping,6.2,5.7,73.3,30.1,0,0,1500,0.0,[2024-01-01 00:15:00] Độ ẩm đang cao (73.3%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:15:00,fridge8,fridge,kitchen,on,247.98,1,sleeping,6.2,5.7,73.3,30.1,0,0,1500,271.59,[2024-01-01 00:15:00] Độ ẩm đang cao (73.3%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:15:00,washer8,washer,laundry_room,off,0.0,1,sleeping,6.2,5.7,73.3,30.1,0,0,1500,0.0,[2024-01-01 00:15:00] Độ ẩm đang cao (73.3%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+9,2024-01-01T00:15:00,air_conditioner9,air_conditioner,bedroom,off,0.0,1,sleeping,13.6,11.9,66.6,59.3,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+10,2024-01-01T00:15:00,air_conditioner10,air_conditioner,bedroom,off,0.0,1,sleeping,10.8,11.0,60.2,14.7,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+10,2024-01-01T00:15:00,washer10,washer,laundry_room,off,0.0,1,sleeping,10.8,11.0,60.2,14.7,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,6.3,5.0,72.7,97.5,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (72.7%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.5,12.0,65.0,85.8,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,213.8,1,sleeping,11.5,12.0,65.0,85.8,0,0,1500,250.68,[2024-01-01 00:30:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.5,12.0,65.0,85.8,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,light4,light,living_room,off,0.0,1,sleeping,12.2,10.7,40.5,36.8,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,tv4,tv,living_room,off,0.0,1,sleeping,12.2,10.7,40.5,36.8,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+5,2024-01-01T00:30:00,washer5,washer,laundry_room,on,658.5,1,sleeping,9.2,10.2,53.2,51.6,0,0,1500,0.0,[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'washer' tại laundry_room vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+6,2024-01-01T00:30:00,tv6,tv,living_room,off,0.0,1,sleeping,12.2,11.7,67.7,17.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+6,2024-01-01T00:30:00,washer6,washer,laundry_room,off,0.0,1,sleeping,12.2,11.7,67.7,17.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+7,2024-01-01T00:30:00,air_conditioner7,air_conditioner,bedroom,on,757.11,1,sleeping,10.9,10.4,37.5,5.4,0,0,1500,0.0,[2024-01-01 00:30:00] Nhiệt độ ngoài trời (10.4°C) mát hơn trong phòng (10.9°C). Cân nhắc tắt điều hòa và mở cửa sổ.
+7,2024-01-01T00:30:00,washer7,washer,laundry_room,off,0.0,1,sleeping,10.9,10.4,37.5,5.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+8,2024-01-01T00:30:00,tv8,tv,living_room,off,0.0,1,idle,10.4,10.2,66.6,72.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+9,2024-01-01T00:30:00,light9,light,living_room,on,112.23,1,sleeping,4.4,4.9,93.2,99.8,0,0,1500,0.0,[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'light' tại living_room vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+9,2024-01-01T00:30:00,tv9,tv,living_room,off,0.0,1,sleeping,4.4,4.9,93.2,99.8,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:45:00,tv2,tv,living_room,off,0.0,1,sleeping,9.5,11.2,72.2,42.2,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:45:00,fridge4,fridge,kitchen,on,297.97,1,sleeping,9.4,10.4,72.1,28.6,0,0,1500,257.6,[2024-01-01 00:45:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+4,2024-01-01T00:45:00,washer4,washer,laundry_room,off,0.0,1,sleeping,9.4,10.4,72.1,28.6,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+5,2024-01-01T00:45:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,11.6,11.8,54.3,44.4,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+5,2024-01-01T00:45:00,light5,light,living_room,off,0.0,1,sleeping,11.6,11.8,54.3,44.4,0,0,1500,29.74,[2024-01-01 00:45:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+5,2024-01-01T00:45:00,fridge5,fridge,kitchen,on,296.93,1,sleeping,11.6,11.8,54.3,44.4,0,0,1500,587.22,[2024-01-01 00:45:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+5,2024-01-01T00:45:00,washer5,washer,laundry_room,off,0.0,1,sleeping,11.6,11.8,54.3,44.4,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+6,2024-01-01T00:45:00,washer6,washer,laundry_room,off,0.0,1,sleeping,11.3,11.1,52.2,35.3,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+7,2024-01-01T00:45:00,tv7,tv,living_room,off,0.0,1,sleeping,10.9,11.2,71.3,96.8,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+8,2024-01-01T00:45:00,air_conditioner8,air_conditioner,bedroom,off,0.0,1,sleeping,12.3,11.3,39.8,22.6,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+8,2024-01-01T00:45:00,light8,light,living_room,off,0.0,1,sleeping,12.3,11.3,39.8,22.6,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+8,2024-01-01T00:45:00,fridge8,fridge,kitchen,on,234.66,1,sleeping,12.3,11.3,39.8,22.6,0,0,1500,241.29,[2024-01-01 00:45:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+9,2024-01-01T00:45:00,tv9,tv,living_room,off,0.0,1,sleeping,10.9,10.3,61.8,11.0,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+9,2024-01-01T00:45:00,washer9,washer,laundry_room,off,0.0,1,sleeping,10.9,10.3,61.8,11.0,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+10,2024-01-01T00:45:00,tv10,tv,living_room,off,0.0,1,sleeping,6.7,4.9,74.9,16.8,0,0,1500,0.0,[2024-01-01 00:45:00] Độ ẩm đang cao (74.9%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+10,2024-01-01T00:45:00,washer10,washer,laundry_room,off,0.0,1,sleeping,6.7,4.9,74.9,16.8,0,0,1500,0.0,[2024-01-01 00:45:00] Độ ẩm đang cao (74.9%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T01:00:00,washer2,washer,laundry_room,off,0.0,1,sleeping,9.9,10.3,50.3,62.3,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T01:00:00,fridge3,fridge,kitchen,on,238.11,1,sleeping,12.2,12.0,63.8,96.9,0,1,1500,288.58,[2024-01-01 01:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+4,2024-01-01T01:00:00,air_conditioner4,air_conditioner,bedroom,off,0.0,1,sleeping,8.9,10.5,70.8,59.4,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+4,2024-01-01T01:00:00,light4,light,living_room,off,0.0,1,sleeping,8.9,10.5,70.8,59.4,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+4,2024-01-01T01:00:00,washer4,washer,laundry_room,off,0.0,1,sleeping,8.9,10.5,70.8,59.4,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+5,2024-01-01T01:00:00,tv5,tv,living_room,off,0.0,1,sleeping,12.6,11.0,52.9,56.1,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+5,2024-01-01T01:00:00,fridge5,fridge,kitchen,on,235.45,1,sleeping,12.6,11.0,52.9,56.1,0,1,1500,247.56,[2024-01-01 01:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+6,2024-01-01T01:00:00,light6,light,living_room,off,0.0,1,sleeping,10.5,10.6,53.3,77.3,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+6,2024-01-01T01:00:00,washer6,washer,laundry_room,on,661.32,1,sleeping,10.5,10.6,53.3,77.3,0,1,1500,0.0,[2024-01-01 01:00:00] Bạn đang ngủ nhưng thiết bị 'washer' tại laundry_room vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+7,2024-01-01T01:00:00,light7,light,living_room,off,0.0,1,sleeping,6.2,4.4,86.2,95.7,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (86.2%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,light8,light,living_room,off,0.0,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,tv8,tv,living_room,off,0.0,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,fridge8,fridge,kitchen,on,249.47,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,216.24,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,washer8,washer,laundry_room,off,0.0,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+9,2024-01-01T01:00:00,washer9,washer,laundry_room,off,0.0,1,sleeping,3.4,5.4,87.7,8.2,0,1,1500,310.6,[2024-01-01 01:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+10,2024-01-01T01:00:00,washer10,washer,laundry_room,off,0.0,1,sleeping,9.2,10.2,62.7,50.8,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T01:15:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.3,11.1,67.0,69.3,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T01:15:00,air_conditioner3,air_conditioner,bedroom,off,0.0,1,sleeping,9.8,11.3,58.5,49.2,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+4,2024-01-01T01:15:00,tv4,tv,living_room,off,0.0,1,sleeping,4.6,5.7,85.7,82.7,0,1,1500,181.75,[2024-01-01 01:15:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+5,2024-01-01T01:15:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,12.7,10.8,56.0,75.5,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+5,2024-01-01T01:15:00,fridge5,fridge,kitchen,on,277.29,1,sleeping,12.7,10.8,56.0,75.5,0,1,1500,239.51,[2024-01-01 01:15:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+6,2024-01-01T01:15:00,tv6,tv,living_room,off,0.0,1,sleeping,11.6,11.2,70.6,4.7,0,1,1500,0.0,[2024-01-01 01:15:00] Độ ẩm đang cao (70.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T01:15:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,sleeping,4.5,4.7,100.0,31.8,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+7,2024-01-01T01:15:00,washer7,washer,laundry_room,off,0.0,1,sleeping,4.5,4.7,100.0,31.8,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+9,2024-01-01T01:15:00,light9,light,living_room,off,0.0,1,sleeping,10.4,10.3,55.1,56.6,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+10,2024-01-01T01:15:00,light10,light,living_room,off,0.0,1,sleeping,11.4,11.7,49.4,40.5,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+10,2024-01-01T01:15:00,washer10,washer,laundry_room,off,0.0,1,sleeping,11.4,11.7,49.4,40.5,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T01:30:00,tv1,tv,living_room,off,0.0,1,sleeping,4.7,5.7,81.1,90.3,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+2,2024-01-01T01:30:00,light2,light,living_room,off,0.0,1,sleeping,9.1,10.4,70.8,76.4,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+3,2024-01-01T01:30:00,light3,light,living_room,off,0.0,1,sleeping,10.1,11.5,73.8,96.5,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+5,2024-01-01T01:30:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,12.4,11.7,47.6,34.8,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T01:30:00,air_conditioner6,air_conditioner,bedroom,off,0.0,1,sleeping,4.7,4.4,99.7,69.9,0,1,1500,0.0,[2024-01-01 01:30:00] Độ ẩm đang cao (99.7%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T01:30:00,fridge6,fridge,kitchen,on,232.56,1,sleeping,4.7,4.4,99.7,69.9,0,1,1500,208.73,[2024-01-01 01:30:00] Độ ẩm đang cao (99.7%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T01:30:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,sleeping,9.7,10.7,44.5,15.2,0,1,1500,382.67,[2024-01-01 01:30:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+7,2024-01-01T01:30:00,washer7,washer,laundry_room,off,0.0,1,sleeping,9.7,10.7,44.5,15.2,0,1,1500,310.6,[2024-01-01 01:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+8,2024-01-01T01:30:00,air_conditioner8,air_conditioner,bedroom,off,0.0,1,sleeping,11.4,12.1,35.8,69.6,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+8,2024-01-01T01:30:00,light8,light,living_room,off,0.0,1,sleeping,11.4,12.1,35.8,69.6,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+8,2024-01-01T01:30:00,washer8,washer,laundry_room,off,0.0,1,sleeping,11.4,12.1,35.8,69.6,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+9,2024-01-01T01:30:00,air_conditioner9,air_conditioner,bedroom,off,0.0,1,sleeping,11.7,11.2,63.7,46.9,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+9,2024-01-01T01:30:00,tv9,tv,living_room,off,0.0,1,sleeping,11.7,11.2,63.7,46.9,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+9,2024-01-01T01:30:00,fridge9,fridge,kitchen,on,200.39,1,sleeping,11.7,11.2,63.7,46.9,0,1,1500,241.97,[2024-01-01 01:30:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+10,2024-01-01T01:30:00,light10,light,living_room,off,0.0,1,sleeping,11.6,10.6,47.0,45.7,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+10,2024-01-01T01:30:00,washer10,washer,laundry_room,off,0.0,1,sleeping,11.6,10.6,47.0,45.7,0,1,1500,328.82,[2024-01-01 01:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T01:45:00,fridge1,fridge,kitchen,on,262.18,1,sleeping,4.0,5.8,94.1,17.5,0,1,1500,253.66,[2024-01-01 01:45:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T01:45:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,sleeping,10.5,10.8,68.6,28.4,0,1,1500,0.0,[2024-01-01 01:45:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T01:45:00,tv2,tv,living_room,off,0.0,1,sleeping,10.5,10.8,68.6,28.4,0,1,1500,0.0,[2024-01-01 01:45:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+5,2024-01-01T01:45:00,light5,light,living_room,off,0.0,1,sleeping,12.2,10.3,62.7,42.1,0,1,1500,0.0,[2024-01-01 01:45:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+5,2024-01-01T01:45:00,fridge5,fridge,kitchen,on,248.36,1,sleeping,12.2,10.3,62.7,42.1,0,1,1500,212.21,[2024-01-01 01:45:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+6,2024-01-01T01:45:00,tv6,tv,living_room,off,0.0,1,sleeping,11.9,10.8,47.3,59.4,0,1,1500,0.0,[2024-01-01 01:45:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,251.75,[2024-01-01 00:30:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,light4,light,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,tv4,tv,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,air_conditioner1,air_conditioner,bedroom,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,fridge1,fridge,kitchen,on,245.78,1,idle,10.0,11.4,53.0,94.2,0,0,1500,238.27,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] TV đang bật dù bạn không xem. Hãy tắt để tập trung và tiết kiệm điện.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,sleeping,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,fridge1,fridge,kitchen,on,280.72,1,sleeping,10.0,11.4,53.0,94.2,0,0,1500,242.43,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,11.6,10.2,44.5,58.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,on,134.25,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+5,2024-01-01T00:00:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,idle,8.6,10.5,67.0,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+5,2024-01-01T00:00:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,9.2,10.2,36.5,77.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T00:00:00,light6,light,living_room,on,154.8,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,tv6,tv,living_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,washer6,washer,laundry_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,light7,light,living_room,on,168.58,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,fridge7,fridge,kitchen,on,287.36,1,idle,5.9,5.3,75.6,16.7,0,0,1500,238.27,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:00:00,air_conditioner8,air_conditioner,bedroom,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+8,2024-01-01T00:00:00,washer8,washer,laundry_room,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+5,2024-01-01T00:00:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,9.2,10.2,36.5,77.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T00:00:00,light6,light,living_room,on,154.8,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,tv6,tv,living_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,washer6,washer,laundry_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,light7,light,living_room,on,168.58,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,fridge7,fridge,kitchen,on,287.36,1,idle,5.9,5.3,75.6,16.7,0,0,1500,238.27,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:00:00,air_conditioner8,air_conditioner,bedroom,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+8,2024-01-01T00:00:00,washer8,washer,laundry_room,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+9,2024-01-01T00:00:00,tv9,tv,living_room,off,0.0,1,idle,3.6,4.2,100.0,64.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:15:00,washer2,washer,laundry_room,off,0.0,1,sleeping,8.7,10.3,57.4,88.6,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:15:00,tv3,tv,living_room,off,0.0,1,idle,12.1,11.2,45.7,15.7,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:15:00,air_conditioner4,air_conditioner,bedroom,off,0.0,1,sleeping,9.7,10.4,53.3,84.4,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+5,2024-01-01T00:15:00,light5,light,living_room,off,0.0,1,sleeping,11.6,10.1,46.7,40.1,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+5,2024-01-01T00:15:00,fridge5,fridge,kitchen,on,257.01,1,sleeping,11.6,10.1,46.7,40.1,0,0,1500,286.44,[2024-01-01 00:15:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+6,2024-01-01T00:15:00,air_conditioner6,air_conditioner,bedroom,off,0.0,1,sleeping,9.8,10.7,60.4,37.7,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T00:15:00,light6,light,living_room,off,0.0,1,sleeping,9.8,10.7,60.4,37.7,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+6,2024-01-01T00:15:00,fridge6,fridge,kitchen,on,301.15,1,sleeping,9.8,10.7,60.4,37.7,0,0,1500,264.3,[2024-01-01 00:15:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+7,2024-01-01T00:15:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,idle,13.2,11.8,40.2,98.8,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+7,2024-01-01T00:15:00,tv7,tv,living_room,off,0.0,1,idle,13.2,11.8,40.2,98.8,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+8,2024-01-01T00:15:00,tv8,tv,living_room,off,0.0,1,sleeping,6.2,5.7,73.3,30.1,0,0,1500,0.0,[2024-01-01 00:15:00] Độ ẩm đang cao (73.3%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:15:00,fridge8,fridge,kitchen,on,247.98,1,sleeping,6.2,5.7,73.3,30.1,0,0,1500,273.92,[2024-01-01 00:15:00] Độ ẩm đang cao (73.3%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:15:00,washer8,washer,laundry_room,off,0.0,1,sleeping,6.2,5.7,73.3,30.1,0,0,1500,0.0,[2024-01-01 00:15:00] Độ ẩm đang cao (73.3%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+9,2024-01-01T00:15:00,air_conditioner9,air_conditioner,bedroom,off,0.0,1,sleeping,13.6,11.9,66.6,59.3,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+10,2024-01-01T00:15:00,air_conditioner10,air_conditioner,bedroom,off,0.0,1,sleeping,10.8,11.0,60.2,14.7,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+10,2024-01-01T00:15:00,washer10,washer,laundry_room,off,0.0,1,sleeping,10.8,11.0,60.2,14.7,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,6.3,5.0,72.7,97.5,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (72.7%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.5,12.0,65.0,85.8,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,213.8,1,sleeping,11.5,12.0,65.0,85.8,0,0,1500,251.75,[2024-01-01 00:30:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.5,12.0,65.0,85.8,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,light4,light,living_room,off,0.0,1,sleeping,12.2,10.7,40.5,36.8,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,tv4,tv,living_room,off,0.0,1,sleeping,12.2,10.7,40.5,36.8,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+5,2024-01-01T00:30:00,washer5,washer,laundry_room,on,658.5,1,sleeping,9.2,10.2,53.2,51.6,0,0,1500,0.0,[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'washer' tại laundry_room vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+6,2024-01-01T00:30:00,tv6,tv,living_room,off,0.0,1,sleeping,12.2,11.7,67.7,17.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+6,2024-01-01T00:30:00,washer6,washer,laundry_room,off,0.0,1,sleeping,12.2,11.7,67.7,17.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+7,2024-01-01T00:30:00,air_conditioner7,air_conditioner,bedroom,on,757.11,1,sleeping,10.9,10.4,37.5,5.4,0,0,1500,0.0,[2024-01-01 00:30:00] Nhiệt độ ngoài trời (10.4°C) mát hơn trong phòng (10.9°C). Cân nhắc tắt điều hòa và mở cửa sổ.
+7,2024-01-01T00:30:00,washer7,washer,laundry_room,off,0.0,1,sleeping,10.9,10.4,37.5,5.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+8,2024-01-01T00:30:00,tv8,tv,living_room,off,0.0,1,idle,10.4,10.2,66.6,72.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+9,2024-01-01T00:30:00,light9,light,living_room,on,112.23,1,sleeping,4.4,4.9,93.2,99.8,0,0,1500,0.0,[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'light' tại living_room vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+9,2024-01-01T00:30:00,tv9,tv,living_room,off,0.0,1,sleeping,4.4,4.9,93.2,99.8,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:45:00,tv2,tv,living_room,off,0.0,1,sleeping,9.5,11.2,72.2,42.2,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:45:00,fridge4,fridge,kitchen,on,297.97,1,sleeping,9.4,10.4,72.1,28.6,0,0,1500,258.36,[2024-01-01 00:45:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+4,2024-01-01T00:45:00,washer4,washer,laundry_room,off,0.0,1,sleeping,9.4,10.4,72.1,28.6,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+5,2024-01-01T00:45:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,11.6,11.8,54.3,44.4,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+5,2024-01-01T00:45:00,light5,light,living_room,off,0.0,1,sleeping,11.6,11.8,54.3,44.4,0,0,1500,36.15,[2024-01-01 00:45:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+5,2024-01-01T00:45:00,fridge5,fridge,kitchen,on,296.93,1,sleeping,11.6,11.8,54.3,44.4,0,0,1500,573.48,[2024-01-01 00:45:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+5,2024-01-01T00:45:00,washer5,washer,laundry_room,off,0.0,1,sleeping,11.6,11.8,54.3,44.4,0,0,1500,46.99,[2024-01-01 00:45:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+6,2024-01-01T00:45:00,washer6,washer,laundry_room,off,0.0,1,sleeping,11.3,11.1,52.2,35.3,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+7,2024-01-01T00:45:00,tv7,tv,living_room,off,0.0,1,sleeping,10.9,11.2,71.3,96.8,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+8,2024-01-01T00:45:00,air_conditioner8,air_conditioner,bedroom,off,0.0,1,sleeping,12.3,11.3,39.8,22.6,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+8,2024-01-01T00:45:00,light8,light,living_room,off,0.0,1,sleeping,12.3,11.3,39.8,22.6,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+8,2024-01-01T00:45:00,fridge8,fridge,kitchen,on,234.66,1,sleeping,12.3,11.3,39.8,22.6,0,0,1500,242.43,[2024-01-01 00:45:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+9,2024-01-01T00:45:00,tv9,tv,living_room,off,0.0,1,sleeping,10.9,10.3,61.8,11.0,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+9,2024-01-01T00:45:00,washer9,washer,laundry_room,off,0.0,1,sleeping,10.9,10.3,61.8,11.0,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+10,2024-01-01T00:45:00,tv10,tv,living_room,off,0.0,1,sleeping,6.7,4.9,74.9,16.8,0,0,1500,0.0,[2024-01-01 00:45:00] Độ ẩm đang cao (74.9%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+10,2024-01-01T00:45:00,washer10,washer,laundry_room,off,0.0,1,sleeping,6.7,4.9,74.9,16.8,0,0,1500,0.0,[2024-01-01 00:45:00] Độ ẩm đang cao (74.9%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T01:00:00,washer2,washer,laundry_room,off,0.0,1,sleeping,9.9,10.3,50.3,62.3,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T01:00:00,fridge3,fridge,kitchen,on,238.11,1,sleeping,12.2,12.0,63.8,96.9,0,1,1500,286.44,[2024-01-01 01:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+4,2024-01-01T01:00:00,air_conditioner4,air_conditioner,bedroom,off,0.0,1,sleeping,8.9,10.5,70.8,59.4,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+4,2024-01-01T01:00:00,light4,light,living_room,off,0.0,1,sleeping,8.9,10.5,70.8,59.4,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+4,2024-01-01T01:00:00,washer4,washer,laundry_room,off,0.0,1,sleeping,8.9,10.5,70.8,59.4,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+5,2024-01-01T01:00:00,tv5,tv,living_room,off,0.0,1,sleeping,12.6,11.0,52.9,56.1,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+5,2024-01-01T01:00:00,fridge5,fridge,kitchen,on,235.45,1,sleeping,12.6,11.0,52.9,56.1,0,1,1500,243.22,[2024-01-01 01:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+6,2024-01-01T01:00:00,light6,light,living_room,off,0.0,1,sleeping,10.5,10.6,53.3,77.3,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+6,2024-01-01T01:00:00,washer6,washer,laundry_room,on,661.32,1,sleeping,10.5,10.6,53.3,77.3,0,1,1500,0.0,[2024-01-01 01:00:00] Bạn đang ngủ nhưng thiết bị 'washer' tại laundry_room vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+7,2024-01-01T01:00:00,light7,light,living_room,off,0.0,1,sleeping,6.2,4.4,86.2,95.7,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (86.2%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,light8,light,living_room,off,0.0,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,tv8,tv,living_room,off,0.0,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,fridge8,fridge,kitchen,on,249.47,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,217.89,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,washer8,washer,laundry_room,off,0.0,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+9,2024-01-01T01:00:00,washer9,washer,laundry_room,off,0.0,1,sleeping,3.4,5.4,87.7,8.2,0,1,1500,343.56,[2024-01-01 01:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+10,2024-01-01T01:00:00,washer10,washer,laundry_room,off,0.0,1,sleeping,9.2,10.2,62.7,50.8,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T01:15:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.3,11.1,67.0,69.3,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T01:15:00,air_conditioner3,air_conditioner,bedroom,off,0.0,1,sleeping,9.8,11.3,58.5,49.2,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+4,2024-01-01T01:15:00,tv4,tv,living_room,off,0.0,1,sleeping,4.6,5.7,85.7,82.7,0,1,1500,183.73,[2024-01-01 01:15:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+5,2024-01-01T01:15:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,12.7,10.8,56.0,75.5,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+5,2024-01-01T01:15:00,fridge5,fridge,kitchen,on,277.29,1,sleeping,12.7,10.8,56.0,75.5,0,1,1500,237.23,[2024-01-01 01:15:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+6,2024-01-01T01:15:00,tv6,tv,living_room,off,0.0,1,sleeping,11.6,11.2,70.6,4.7,0,1,1500,0.0,[2024-01-01 01:15:00] Độ ẩm đang cao (70.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T01:15:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,sleeping,4.5,4.7,100.0,31.8,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+7,2024-01-01T01:15:00,washer7,washer,laundry_room,off,0.0,1,sleeping,4.5,4.7,100.0,31.8,0,1,1500,21.21,[2024-01-01 01:15:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+9,2024-01-01T01:15:00,light9,light,living_room,off,0.0,1,sleeping,10.4,10.3,55.1,56.6,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+10,2024-01-01T01:15:00,light10,light,living_room,off,0.0,1,sleeping,11.4,11.7,49.4,40.5,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+10,2024-01-01T01:15:00,washer10,washer,laundry_room,off,0.0,1,sleeping,11.4,11.7,49.4,40.5,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T01:30:00,tv1,tv,living_room,off,0.0,1,sleeping,4.7,5.7,81.1,90.3,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+2,2024-01-01T01:30:00,light2,light,living_room,off,0.0,1,sleeping,9.1,10.4,70.8,76.4,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+3,2024-01-01T01:30:00,light3,light,living_room,off,0.0,1,sleeping,10.1,11.5,73.8,96.5,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+5,2024-01-01T01:30:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,12.4,11.7,47.6,34.8,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T01:30:00,air_conditioner6,air_conditioner,bedroom,off,0.0,1,sleeping,4.7,4.4,99.7,69.9,0,1,1500,0.0,[2024-01-01 01:30:00] Độ ẩm đang cao (99.7%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T01:30:00,fridge6,fridge,kitchen,on,232.56,1,sleeping,4.7,4.4,99.7,69.9,0,1,1500,210.05,[2024-01-01 01:30:00] Độ ẩm đang cao (99.7%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T01:30:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,sleeping,9.7,10.7,44.5,15.2,0,1,1500,376.34,[2024-01-01 01:30:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+7,2024-01-01T01:30:00,washer7,washer,laundry_room,off,0.0,1,sleeping,9.7,10.7,44.5,15.2,0,1,1500,310.55,[2024-01-01 01:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+8,2024-01-01T01:30:00,air_conditioner8,air_conditioner,bedroom,off,0.0,1,sleeping,11.4,12.1,35.8,69.6,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+8,2024-01-01T01:30:00,light8,light,living_room,off,0.0,1,sleeping,11.4,12.1,35.8,69.6,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+8,2024-01-01T01:30:00,washer8,washer,laundry_room,off,0.0,1,sleeping,11.4,12.1,35.8,69.6,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+9,2024-01-01T01:30:00,air_conditioner9,air_conditioner,bedroom,off,0.0,1,sleeping,11.7,11.2,63.7,46.9,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+9,2024-01-01T01:30:00,tv9,tv,living_room,off,0.0,1,sleeping,11.7,11.2,63.7,46.9,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+9,2024-01-01T01:30:00,fridge9,fridge,kitchen,on,200.39,1,sleeping,11.7,11.2,63.7,46.9,0,1,1500,243.22,[2024-01-01 01:30:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+10,2024-01-01T01:30:00,light10,light,living_room,off,0.0,1,sleeping,11.6,10.6,47.0,45.7,0,1,1500,0.0,[2024-01-01 01:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+10,2024-01-01T01:30:00,washer10,washer,laundry_room,off,0.0,1,sleeping,11.6,10.6,47.0,45.7,0,1,1500,343.56,[2024-01-01 01:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T01:45:00,fridge1,fridge,kitchen,on,262.18,1,sleeping,4.0,5.8,94.1,17.5,0,1,1500,256.96,[2024-01-01 01:45:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T01:45:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,sleeping,10.5,10.8,68.6,28.4,0,1,1500,0.0,[2024-01-01 01:45:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T01:45:00,tv2,tv,living_room,off,0.0,1,sleeping,10.5,10.8,68.6,28.4,0,1,1500,0.0,[2024-01-01 01:45:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+5,2024-01-01T01:45:00,light5,light,living_room,off,0.0,1,sleeping,12.2,10.3,62.7,42.1,0,1,1500,0.0,[2024-01-01 01:45:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+5,2024-01-01T01:45:00,fridge5,fridge,kitchen,on,248.36,1,sleeping,12.2,10.3,62.7,42.1,0,1,1500,213.51,[2024-01-01 01:45:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+6,2024-01-01T01:45:00,tv6,tv,living_room,off,0.0,1,sleeping,11.9,10.8,47.3,59.4,0,1,1500,0.0,[2024-01-01 01:45:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+6,2024-01-01T01:45:00,washer6,washer,laundry_room,off,0.0,1,sleeping,11.9,10.8,47.3,59.4,0,1,1500,0.0,[2024-01-01 01:45:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+9,2024-01-01T01:45:00,air_conditioner9,air_conditioner,bedroom,off,0.0,1,sleeping,3.4,4.8,100.0,0.4,0,1,1500,0.0,[2024-01-01 01:45:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+9,2024-01-01T01:45:00,light9,light,living_room,off,0.0,1,sleeping,3.4,4.8,100.0,0.4,0,1,1500,0.0,[2024-01-01 01:45:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+9,2024-01-01T01:45:00,tv9,tv,living_room,off,0.0,1,sleeping,3.4,4.8,100.0,0.4,0,1,1500,0.0,[2024-01-01 01:45:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+9,2024-01-01T01:45:00,washer9,washer,laundry_room,off,0.0,1,sleeping,3.4,4.8,100.0,0.4,0,1,1500,0.0,[2024-01-01 01:45:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+10,2024-01-01T01:45:00,tv10,tv,living_room,off,0.0,1,sleeping,10.2,11.7,70.5,61.0,0,1,1500,0.0,[2024-01-01 01:45:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T02:00:00,tv1,tv,living_room,off,0.0,1,sleeping,5.8,5.9,75.0,51.0,0,2,1500,0.0,[2024-01-01 02:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T02:00:00,fridge1,fridge,kitchen,on,274.67,1,sleeping,5.8,5.9,75.0,51.0,0,2,1500,210.69,[2024-01-01 02:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+4,2024-01-01T02:00:00,light4,light,living_room,off,0.0,1,sleeping,13.4,12.0,43.8,55.6,0,2,1500,0.0,[2024-01-01 02:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+4,2024-01-01T02:00:00,tv4,tv,living_room,off,0.0,1,sleeping,13.4,12.0,43.8,55.6,0,2,1500,35.61,[2024-01-01 02:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+4,2024-01-01T02:00:00,fridge4,fridge,kitchen,on,271.25,1,sleeping,13.4,12.0,43.8,55.6,0,2,1500,278.15,[2024-01-01 02:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+6,2024-01-01T02:00:00,air_conditioner6,air_conditioner,bedroom,off,0.0,1,sleeping,4.4,6.0,75.0,10.3,0,2,1500,0.0,[2024-01-01 02:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T02:00:00,light6,light,living_room,off,0.0,1,sleeping,4.4,6.0,75.0,10.3,0,2,1500,0.0,[2024-01-01 02:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,250.8,[2024-01-01 00:30:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,light4,light,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,tv4,tv,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,air_conditioner1,air_conditioner,bedroom,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,fridge1,fridge,kitchen,on,245.78,1,idle,10.0,11.4,53.0,94.2,0,0,1500,239.87,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] TV đang bật dù bạn không xem. Hãy tắt để tập trung và tiết kiệm điện.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,sleeping,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,fridge1,fridge,kitchen,on,280.72,1,sleeping,10.0,11.4,53.0,94.2,0,0,1500,241.18,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,11.6,10.2,44.5,58.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,on,134.25,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+5,2024-01-01T00:00:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,idle,8.6,10.5,67.0,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+5,2024-01-01T00:00:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,9.2,10.2,36.5,77.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T00:00:00,light6,light,living_room,on,154.8,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,tv6,tv,living_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,washer6,washer,laundry_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,light7,light,living_room,on,168.58,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,fridge7,fridge,kitchen,on,287.36,1,idle,5.9,5.3,75.6,16.7,0,0,1500,241.26,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:00:00,air_conditioner8,air_conditioner,bedroom,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+8,2024-01-01T00:00:00,washer8,washer,laundry_room,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,249.95,[2024-01-01 00:30:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,light4,light,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,tv4,tv,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,air_conditioner1,air_conditioner,bedroom,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,fridge1,fridge,kitchen,on,245.78,1,idle,10.0,11.4,53.0,94.2,0,0,1500,239.77,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,tv2,tv,living_room,on,343.63,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] TV đang bật dù bạn không xem. Hãy tắt để tập trung và tiết kiệm điện.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,sleeping,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,fridge1,fridge,kitchen,on,280.72,1,sleeping,10.0,11.4,53.0,94.2,0,0,1500,243.49,[2024-01-01 00:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,11.6,10.2,44.5,58.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,on,134.25,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,idle,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+5,2024-01-01T00:00:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,idle,8.6,10.5,67.0,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+5,2024-01-01T00:00:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,9.2,10.2,36.5,77.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T00:00:00,light6,light,living_room,on,154.8,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,tv6,tv,living_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,washer6,washer,laundry_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,light7,light,living_room,on,168.58,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,fridge7,fridge,kitchen,on,287.36,1,idle,5.9,5.3,75.6,16.7,0,0,1500,239.77,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:00:00,air_conditioner8,air_conditioner,bedroom,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+8,2024-01-01T00:00:00,washer8,washer,laundry_room,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,light1,light,living_room,on,124.96,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,tv1,tv,living_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+1,2024-01-01T00:00:00,washer1,washer,laundry_room,off,0.0,1,idle,10.0,11.4,53.0,94.2,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,air_conditioner2,air_conditioner,bedroom,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+2,2024-01-01T00:00:00,light2,light,living_room,on,152.98,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:00:00,washer2,washer,laundry_room,off,0.0,1,idle,10.6,11.8,58.6,60.1,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:00:00,tv3,tv,living_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+3,2024-01-01T00:00:00,washer3,washer,laundry_room,off,0.0,1,idle,6.6,5.8,70.5,1.5,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (70.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,light4,light,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+4,2024-01-01T00:00:00,tv4,tv,living_room,off,0.0,1,sleeping,5.7,4.8,100.0,56.8,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (100.0%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+5,2024-01-01T00:00:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,9.2,10.2,36.5,77.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T00:00:00,light6,light,living_room,on,154.8,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,tv6,tv,living_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+6,2024-01-01T00:00:00,washer6,washer,laundry_room,off,0.0,1,idle,6.3,5.4,72.5,57.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (72.5%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,light7,light,living_room,on,168.58,1,idle,5.9,5.3,75.6,16.7,0,0,1500,0.0,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+7,2024-01-01T00:00:00,fridge7,fridge,kitchen,on,287.36,1,idle,5.9,5.3,75.6,16.7,0,0,1500,239.77,[2024-01-01 00:00:00] Độ ẩm đang cao (75.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:00:00,air_conditioner8,air_conditioner,bedroom,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+8,2024-01-01T00:00:00,washer8,washer,laundry_room,off,0.0,1,idle,2.7,4.4,77.7,37.6,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+9,2024-01-01T00:00:00,tv9,tv,living_room,off,0.0,1,idle,3.6,4.2,100.0,64.9,0,0,1500,0.0,[2024-01-01 00:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:15:00,washer2,washer,laundry_room,off,0.0,1,sleeping,8.7,10.3,57.4,88.6,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T00:15:00,tv3,tv,living_room,off,0.0,1,idle,12.1,11.2,45.7,15.7,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:15:00,air_conditioner4,air_conditioner,bedroom,off,0.0,1,sleeping,9.7,10.4,53.3,84.4,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+5,2024-01-01T00:15:00,light5,light,living_room,off,0.0,1,sleeping,11.6,10.1,46.7,40.1,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+5,2024-01-01T00:15:00,fridge5,fridge,kitchen,on,257.01,1,sleeping,11.6,10.1,46.7,40.1,0,0,1500,289.16,[2024-01-01 00:15:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+6,2024-01-01T00:15:00,air_conditioner6,air_conditioner,bedroom,off,0.0,1,sleeping,9.8,10.7,60.4,37.7,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+6,2024-01-01T00:15:00,light6,light,living_room,off,0.0,1,sleeping,9.8,10.7,60.4,37.7,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+6,2024-01-01T00:15:00,fridge6,fridge,kitchen,on,301.15,1,sleeping,9.8,10.7,60.4,37.7,0,0,1500,262.45,[2024-01-01 00:15:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+7,2024-01-01T00:15:00,air_conditioner7,air_conditioner,bedroom,off,0.0,1,idle,13.2,11.8,40.2,98.8,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+7,2024-01-01T00:15:00,tv7,tv,living_room,off,0.0,1,idle,13.2,11.8,40.2,98.8,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+8,2024-01-01T00:15:00,tv8,tv,living_room,off,0.0,1,sleeping,6.2,5.7,73.3,30.1,0,0,1500,0.0,[2024-01-01 00:15:00] Độ ẩm đang cao (73.3%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:15:00,fridge8,fridge,kitchen,on,247.98,1,sleeping,6.2,5.7,73.3,30.1,0,0,1500,272.69,[2024-01-01 00:15:00] Độ ẩm đang cao (73.3%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T00:15:00,washer8,washer,laundry_room,off,0.0,1,sleeping,6.2,5.7,73.3,30.1,0,0,1500,0.0,[2024-01-01 00:15:00] Độ ẩm đang cao (73.3%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+9,2024-01-01T00:15:00,air_conditioner9,air_conditioner,bedroom,off,0.0,1,sleeping,13.6,11.9,66.6,59.3,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+10,2024-01-01T00:15:00,air_conditioner10,air_conditioner,bedroom,off,0.0,1,sleeping,10.8,11.0,60.2,14.7,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+10,2024-01-01T00:15:00,washer10,washer,laundry_room,off,0.0,1,sleeping,10.8,11.0,60.2,14.7,0,0,1500,0.0,[2024-01-01 00:15:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,6.3,5.0,72.7,97.5,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (72.7%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.5,12.0,65.0,85.8,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,213.8,1,sleeping,11.5,12.0,65.0,85.8,0,0,1500,249.95,[2024-01-01 00:30:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.5,12.0,65.0,85.8,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,light4,light,living_room,off,0.0,1,sleeping,12.2,10.7,40.5,36.8,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,tv4,tv,living_room,off,0.0,1,sleeping,12.2,10.7,40.5,36.8,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+5,2024-01-01T00:30:00,washer5,washer,laundry_room,on,658.5,1,sleeping,9.2,10.2,53.2,51.6,0,0,1500,0.0,[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'washer' tại laundry_room vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+6,2024-01-01T00:30:00,tv6,tv,living_room,off,0.0,1,sleeping,12.2,11.7,67.7,17.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+6,2024-01-01T00:30:00,washer6,washer,laundry_room,off,0.0,1,sleeping,12.2,11.7,67.7,17.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+7,2024-01-01T00:30:00,air_conditioner7,air_conditioner,bedroom,on,757.11,1,sleeping,10.9,10.4,37.5,5.4,0,0,1500,0.0,[2024-01-01 00:30:00] Nhiệt độ ngoài trời (10.4°C) mát hơn trong phòng (10.9°C). Cân nhắc tắt điều hòa và mở cửa sổ.
+7,2024-01-01T00:30:00,washer7,washer,laundry_room,off,0.0,1,sleeping,10.9,10.4,37.5,5.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+8,2024-01-01T00:30:00,tv8,tv,living_room,off,0.0,1,idle,10.4,10.2,66.6,72.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+9,2024-01-01T00:30:00,light9,light,living_room,on,112.23,1,sleeping,4.4,4.9,93.2,99.8,0,0,1500,0.0,[2024-01-01 00:30:00] Bạn đang ngủ nhưng thiết bị 'light' tại living_room vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+9,2024-01-01T00:30:00,tv9,tv,living_room,off,0.0,1,sleeping,4.4,4.9,93.2,99.8,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:45:00,tv2,tv,living_room,off,0.0,1,sleeping,9.5,11.2,72.2,42.2,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+4,2024-01-01T00:45:00,fridge4,fridge,kitchen,on,297.97,1,sleeping,9.4,10.4,72.1,28.6,0,0,1500,256.52,[2024-01-01 00:45:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+4,2024-01-01T00:45:00,washer4,washer,laundry_room,off,0.0,1,sleeping,9.4,10.4,72.1,28.6,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+5,2024-01-01T00:45:00,air_conditioner5,air_conditioner,bedroom,off,0.0,1,sleeping,11.6,11.8,54.3,44.4,0,0,1500,29.04,[2024-01-01 00:45:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+5,2024-01-01T00:45:00,light5,light,living_room,off,0.0,1,sleeping,11.6,11.8,54.3,44.4,0,0,1500,47.47,[2024-01-01 00:45:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+5,2024-01-01T00:45:00,fridge5,fridge,kitchen,on,296.93,1,sleeping,11.6,11.8,54.3,44.4,0,0,1500,580.56,[2024-01-01 00:45:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+5,2024-01-01T00:45:00,washer5,washer,laundry_room,off,0.0,1,sleeping,11.6,11.8,54.3,44.4,0,0,1500,27.01,[2024-01-01 00:45:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+6,2024-01-01T00:45:00,washer6,washer,laundry_room,off,0.0,1,sleeping,11.3,11.1,52.2,35.3,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+7,2024-01-01T00:45:00,tv7,tv,living_room,off,0.0,1,sleeping,10.9,11.2,71.3,96.8,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+8,2024-01-01T00:45:00,air_conditioner8,air_conditioner,bedroom,off,0.0,1,sleeping,12.3,11.3,39.8,22.6,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+8,2024-01-01T00:45:00,light8,light,living_room,off,0.0,1,sleeping,12.3,11.3,39.8,22.6,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+8,2024-01-01T00:45:00,fridge8,fridge,kitchen,on,234.66,1,sleeping,12.3,11.3,39.8,22.6,0,0,1500,243.49,[2024-01-01 00:45:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+9,2024-01-01T00:45:00,tv9,tv,living_room,off,0.0,1,sleeping,10.9,10.3,61.8,11.0,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+9,2024-01-01T00:45:00,washer9,washer,laundry_room,off,0.0,1,sleeping,10.9,10.3,61.8,11.0,0,0,1500,0.0,[2024-01-01 00:45:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+10,2024-01-01T00:45:00,tv10,tv,living_room,off,0.0,1,sleeping,6.7,4.9,74.9,16.8,0,0,1500,0.0,[2024-01-01 00:45:00] Độ ẩm đang cao (74.9%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+10,2024-01-01T00:45:00,washer10,washer,laundry_room,off,0.0,1,sleeping,6.7,4.9,74.9,16.8,0,0,1500,0.0,[2024-01-01 00:45:00] Độ ẩm đang cao (74.9%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T01:00:00,washer2,washer,laundry_room,off,0.0,1,sleeping,9.9,10.3,50.3,62.3,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+3,2024-01-01T01:00:00,fridge3,fridge,kitchen,on,238.11,1,sleeping,12.2,12.0,63.8,96.9,0,1,1500,289.16,[2024-01-01 01:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+4,2024-01-01T01:00:00,air_conditioner4,air_conditioner,bedroom,off,0.0,1,sleeping,8.9,10.5,70.8,59.4,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'air_conditioner' tại bedroom đang hoạt động bình thường.
+4,2024-01-01T01:00:00,light4,light,living_room,off,0.0,1,sleeping,8.9,10.5,70.8,59.4,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+4,2024-01-01T01:00:00,washer4,washer,laundry_room,off,0.0,1,sleeping,8.9,10.5,70.8,59.4,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+5,2024-01-01T01:00:00,tv5,tv,living_room,off,0.0,1,sleeping,12.6,11.0,52.9,56.1,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'tv' tại living_room đang hoạt động bình thường.
+5,2024-01-01T01:00:00,fridge5,fridge,kitchen,on,235.45,1,sleeping,12.6,11.0,52.9,56.1,0,1,1500,244.02,[2024-01-01 01:00:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+6,2024-01-01T01:00:00,light6,light,living_room,off,0.0,1,sleeping,10.5,10.6,53.3,77.3,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+6,2024-01-01T01:00:00,washer6,washer,laundry_room,on,661.32,1,sleeping,10.5,10.6,53.3,77.3,0,1,1500,0.0,[2024-01-01 01:00:00] Bạn đang ngủ nhưng thiết bị 'washer' tại laundry_room vẫn đang bật. Hãy tắt để ngủ ngon hơn và tiết kiệm điện.
+7,2024-01-01T01:00:00,light7,light,living_room,off,0.0,1,sleeping,6.2,4.4,86.2,95.7,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (86.2%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,light8,light,living_room,off,0.0,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,tv8,tv,living_room,off,0.0,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,fridge8,fridge,kitchen,on,249.47,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,216.53,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+8,2024-01-01T01:00:00,washer8,washer,laundry_room,off,0.0,1,sleeping,12.0,11.7,71.6,87.4,0,1,1500,0.0,[2024-01-01 01:00:00] Độ ẩm đang cao (71.6%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+9,2024-01-01T01:00:00,washer9,washer,laundry_room,off,0.0,1,sleeping,3.4,5.4,87.7,8.2,0,1,1500,339.16,[2024-01-01 01:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+10,2024-01-01T01:00:00,washer10,washer,laundry_room,off,0.0,1,sleeping,9.2,10.2,62.7,50.8,0,1,1500,0.0,[2024-01-01 01:00:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T01:15:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.3,11.1,67.0,69.3,0,1,1500,0.0,[2024-01-01 01:15:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,250.91,[2024-01-01 00:30:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+1,2024-01-01T00:30:00,washer1,washer,laundry_room,off,0.0,1,sleeping,12.1,10.7,73.8,25.4,0,0,1500,0.0,[2024-01-01 00:30:00] Độ ẩm đang cao (73.8%). Hãy đóng cửa sổ hoặc bật hút ẩm nếu thấy bí bách.
+2,2024-01-01T00:30:00,light2,light,living_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
+2,2024-01-01T00:30:00,fridge2,fridge,kitchen,on,215.3,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,250.6,[2024-01-01 00:30:00] Thiết bị 'fridge' tại kitchen đang hoạt động bình thường.
+2,2024-01-01T00:30:00,washer2,washer,laundry_room,off,0.0,1,sleeping,11.8,11.2,49.2,68.5,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'washer' tại laundry_room đang hoạt động bình thường.
+4,2024-01-01T00:30:00,light4,light,living_room,off,0.0,1,sleeping,12.7,11.8,50.6,92.4,0,0,1500,0.0,[2024-01-01 00:30:00] Thiết bị 'light' tại living_room đang hoạt động bình thường.
