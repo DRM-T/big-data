@@ -87,30 +87,52 @@ Hệ thống sử dụng **1 Kafka broker** và **4 topic**, chia thành 2 nhóm
 
 1. **Khởi động Kafka & Zookeeper.**
 
-2. **Chạy các thành phần chính:**
+Dưới đây là phần viết lại cho rõ ràng, mạch lạc và hợp lý hơn phần hướng dẫn chạy các thành phần chính:
 
-   ```bash
-   python suggesttion_model.py              # Train định kỳ + xử lý realtime
-   python notification_suggest.py           # Gửi gợi ý đến giao diện người dùng
-   python realtime_data_simulation.py       # Gửi dữ liệu giả lập vào Kafka
-   python app_ui.py                         # Chạy giao diện Flask
-   ```
-![image](https://github.com/user-attachments/assets/1cffc1fc-105c-4cc6-ba8b-27c793d9edb3)
-![image](https://github.com/user-attachments/assets/b3fda698-efbb-419a-904e-9b3627cc359a)
-![image](https://github.com/user-attachments/assets/1322ed78-3d4e-4cca-9549-c01d6cd8381f)
-![image](https://github.com/user-attachments/assets/e34917c3-658f-4527-992f-932246176c8a)
-![image](https://github.com/user-attachments/assets/6806ec03-e61c-4ea4-8bb2-cd802e32be84)
+---
+2. Chạy các thành phần chính
 
+Khởi động các module sau theo thứ tự hoặc song song tùy nhu cầu:
 
-3. **(Tùy chọn) Gửi bản ghi kiểm thử từ terminal:**
+```bash
+python suggestion_model.py              # Huấn luyện định kỳ và xử lý dữ liệu realtime
+python notification_suggest.py          # Gửi gợi ý đến giao diện người dùng
+python realtime_data_simulation.py      # Gửi dữ liệu giả lập vào Kafka
+```
 
-   ```bash
-   python send_single_record_test_model.py  # Gửi 1 bản ghi kiểm tra
-   ```
+![Hình ảnh minh họa 1](https://github.com/user-attachments/assets/1cffc1fc-105c-4cc6-ba8b-27c793d9edb3)
+![Hình ảnh minh họa 2](https://github.com/user-attachments/assets/b3fda698-efbb-419a-904e-9b3627cc359a)
+![Hình ảnh minh họa 3](https://github.com/user-attachments/assets/1322ed78-3d4e-4cca-9549-c01d6cd8381f)
+
+Tiếp theo, khởi chạy giao diện người dùng với Flask:
+
+```bash
+python app_ui.py                        # Khởi chạy giao diện Flask
+```
+
+![Hình ảnh giao diện Flask 1](https://github.com/user-attachments/assets/e34917c3-658f-4527-992f-932246176c8a)
+![Hình ảnh giao diện Flask 2](https://github.com/user-attachments/assets/6806ec03-e61c-4ea4-8bb2-cd802e32be84)
 
 ---
 
+### (Tùy chọn) Gửi bản ghi kiểm thử từ terminal
 
+Nếu cần kiểm tra nhanh, có thể gửi một bản ghi mẫu bằng cách:
+
+```bash
+python send_single_record_test_model.py  # Gửi 1 bản ghi kiểm thử
+```
+---
+
+## Kết luận
+
+Dự án **Tối ưu hóa hành vi sử dụng thiết bị trong nhà thông minh với công nghệ dữ liệu lớn** đã xây dựng thành công một hệ thống toàn diện, ứng dụng các kỹ thuật phân tích dữ liệu lớn và học máy để cải thiện hiệu quả sử dụng điện năng trong môi trường nhà thông minh.
+
+Thông qua việc mô phỏng dữ liệu, huấn luyện và cập nhật mô hình định kỳ, cùng với xử lý dữ liệu thời gian thực bằng Kafka, hệ thống không chỉ cung cấp các gợi ý tiêu thụ thiết thực mà còn linh hoạt thích ứng với thói quen sử dụng thay đổi theo thời gian. Giao diện người dùng thân thiện giúp người dùng dễ dàng theo dõi, kiểm thử và quản lý tiêu thụ điện năng, đồng thời góp phần nâng cao ý thức tiết kiệm năng lượng và bảo vệ môi trường.
+
+Dự án mở ra hướng đi ứng dụng dữ liệu lớn trong các giải pháp nhà thông minh, hứa hẹn nhiều tiềm năng phát triển trong tương lai, đặc biệt khi các thiết bị IoT ngày càng phổ biến và dữ liệu ngày càng phong phú.
+
+---
 ## Nhóm phát triển
 
 * **Hoàng Đình Hoàn** – 22024577
