@@ -43,6 +43,10 @@ Dự án tập trung phát triển một hệ thống ứng dụng công nghệ 
 
 ---
 
+Dưới đây là phần bổ sung cách tạo topic cho mục **Cấu hình hệ thống Kafka** của bạn, giữ phong cách chuyên nghiệp và rõ ràng:
+
+---
+
 ## Cấu hình hệ thống Kafka
 
 ![Kafka System Architecture](https://github.com/user-attachments/assets/90e1d3a4-0b00-4586-975d-015ad029acd7)
@@ -59,6 +63,24 @@ Hệ thống vận hành với **1 Kafka broker** và 4 topic, chia thành hai n
   * `smarthome-test-data`: nhận bản ghi kiểm thử gửi từ giao diện người dùng.
   * `smarthome-test-suggestions`: chứa gợi ý phản hồi dựa trên bản ghi kiểm thử.
 
+---
+
+### Cách tạo topic trong Kafka
+
+Sử dụng dòng lệnh sau:
+
+```bash
+kafka-topics.sh --create \
+  --bootstrap-server localhost:9092 \
+  --replication-factor 1 \
+  --partitions 3 \
+  --topic tên_topic
+```
+
+* `--bootstrap-server`: địa chỉ Kafka broker.
+* `--replication-factor`: số bản sao (thường 1 trong môi trường phát triển).
+* `--partitions`: số phân vùng cho topic.
+* `--topic`: tên topic cần tạo.
 ---
 
 ## Cấu trúc thư mục dự án
