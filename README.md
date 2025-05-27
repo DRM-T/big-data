@@ -1,129 +1,124 @@
 # Tối ưu hóa hành vi sử dụng thiết bị trong nhà thông minh với công nghệ dữ liệu lớn
 
-## Mô tả dự án
+## Mô tả tổng quan
 
-Dự án này tập trung vào việc xây dựng một hệ thống ứng dụng công nghệ dữ liệu lớn để tối ưu hóa việc sử dụng các thiết bị điện trong môi trường nhà thông minh. Trong bối cảnh công nghệ IoT phát triển mạnh mẽ và nhu cầu tiết kiệm năng lượng ngày càng tăng, hệ thống này giải quyết vấn đề lãng phí năng lượng do thói quen sử dụng hoặc thiếu kiểm soát, đồng thời giúp người dùng giảm chi phí sinh hoạt và góp phần bảo vệ môi trường.
+Dự án hướng tới xây dựng một hệ thống sử dụng công nghệ dữ liệu lớn nhằm tối ưu hóa hành vi tiêu thụ điện năng trong môi trường nhà thông minh. Trong bối cảnh thiết bị IoT ngày càng phổ biến và nhu cầu tiết kiệm năng lượng gia tăng, hệ thống giúp người dùng điều chỉnh thói quen sử dụng thiết bị một cách hiệu quả, từ đó giảm chi phí sinh hoạt và góp phần bảo vệ môi trường.
 
-**Mục tiêu chính:**
+## Mục tiêu
 
-* **Thu thập dữ liệu:** Thu thập và lưu trữ dữ liệu từ các cảm biến và thiết bị trong nhà thông minh, bao gồm trạng thái, thời gian sử dụng, và mức tiêu thụ điện.
-* **Phân tích dữ liệu:** Sử dụng các mô hình học máy (cụ thể là LightGBM) để phân tích, phát hiện các mô hình tiêu thụ bất thường hoặc không hiệu quả.
-* **Đưa ra gợi ý:** Cung cấp các gợi ý, khuyến nghị cho người dùng về cách sử dụng thiết bị hiệu quả hơn, đề xuất lịch hoạt động tối ưu nhằm tiết kiệm điện và chi phí.
-* **Xử lý thời gian thực:** Tận dụng Apache Kafka để xử lý và phân tích dữ liệu theo thời gian thực, đảm bảo các gợi ý được đưa ra kịp thời.
-* **Giao diện người dùng:** Cung cấp một giao diện web (sử dụng Flask) để người dùng có thể theo dõi gợi ý, xem thống kê chi phí, và nhập dữ liệu thủ công để kiểm tra hệ thống.
+* **Tạo dữ liệu mô phỏng:**
+  Do thiếu dữ liệu thực tế (thiếu các trường và mối tương quan đặc trưng), nhóm xây dựng một **bộ dữ liệu giả lập** mô phỏng hành vi sử dụng thiết bị, đặc điểm môi trường, và trạng thái tiêu thụ.
+  → Chi tiết trong notebook `Generate_Analyze_SelectModel.ipynb`.
 
-## Cách cài đặt
+* **Huấn luyện mô hình ban đầu:**
 
-Để cài đặt và chạy dự án này, bạn cần thực hiện các bước sau:
+  * Dữ liệu khởi tạo từ file `data/data_2022.csv`.
+  * Sử dụng **LightGBM** để huấn luyện mô hình dự đoán công suất và sinh gợi ý.
 
-### Yêu cầu tiên quyết
+* **Cập nhật mô hình định kỳ:**
 
-1.  **Python 3.x:** Đảm bảo bạn đã cài đặt Python phiên bản 3 trở lên.
-2.  **Apache Kafka:**
-    * Tải và cài đặt Apache Kafka từ [trang chủ Kafka](https://kafka.apache.org/downloads).
-    * Khởi chạy Zookeeper và Kafka Server theo hướng dẫn. Đảm bảo Kafka đang chạy trên `localhost:9092` (hoặc cấu hình lại trong các file Python nếu bạn sử dụng địa chỉ khác).
-    * Hệ thống sẽ sử dụng các topic sau (thường sẽ được tự động tạo nếu chưa có, nhưng bạn nên kiểm tra):
-        * `smarthome-suggestions`
-        * `smarthome-test-suggestions`
-        * `realtime-smarthome-data`
-        * `smarthome-test-data`
+  * Hệ thống tự động **train lại mỗi ngày** với **dữ liệu của 2 năm gần nhất** để đảm bảo tính chính xác và thích ứng.
+  * Mô hình được nạp lại và sử dụng ngay trong các pipeline xử lý realtime.
 
-### Cài đặt thư viện Python
+* **Xử lý dữ liệu thời gian thực bằng Kafka:**
 
-1.  **Tạo môi trường ảo (khuyến nghị):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # Trên Linux/macOS
-    # hoặc
-    venv\Scripts\activate  # Trên Windows
-    ```
-2.  **Cài đặt các thư viện cần thiết:**
-    Tạo một file `requirements.txt` với nội dung sau:
-    ```
-    flask
-    kafka-python
-    pandas
-    numpy
-    lightgbm
-    scikit-learn
-    matplotlib
-    ```
-    Sau đó chạy lệnh:
-    ```bash
-    pip install -r requirements.txt
-    ```
+  * 10 hộ gia đình mô phỏng gửi dữ liệu 15 phút/lần.
+  * Hệ thống xử lý và phản hồi gợi ý tức thời.
 
-### Chạy dự án
+* **Giao diện người dùng:**
 
-Bạn cần chạy các thành phần sau theo thứ tự, mỗi thành phần trong một cửa sổ terminal riêng:
+  * Flask-based Web UI cho phép theo dõi gợi ý, kiểm thử thủ công và xem thống kê tiêu thụ điện năng.
 
-1.  **Chạy Zookeeper & Kafka Server.**
-2.  **Chạy mô hình xử lý gợi ý thời gian thực:**
-    ```bash
-    python suggesttion_model.py
-    ```
-3.  **Chạy mô hình xử lý gợi ý kiểm tra:**
-    ```bash
-    python test_suggesttion_model.py
-    ```
-4.  **Chạy bộ sinh dữ liệu thời gian thực (tùy chọn):** Nếu bạn muốn có luồng dữ liệu liên tục.
-    ```bash
-    python realtime_data_simulation.py
-    ```
-5.  **Chạy ứng dụng Web UI:**
-    ```bash
-    python app_ui.py
-    ```
-
-Sau khi chạy `app_ui.py`, ứng dụng web sẽ có sẵn tại `http://127.0.0.1:5000/`.
-
-## Cách sử dụng
-
-Sau khi khởi chạy thành công các thành phần, bạn có thể truy cập giao diện web tại `http://127.0.0.1:5000/`:
-
-1.  **Xem gợi ý:**
-    * Mục **Gợi ý Thời gian thực** sẽ tự động cập nhật các gợi ý được tạo ra từ luồng dữ liệu `realtime-smarthome-data` (nếu `realtime_data_simulation.py` đang chạy).
-    * Mục **Gợi ý Kiểm tra** sẽ hiển thị các gợi ý được tạo ra khi bạn gửi dữ liệu thủ công tới topic `smarthome-test-data`.
-2.  **Nhập dữ liệu thủ công:**
-    * Sử dụng form **Nhập Dữ Liệu Thủ Công** để gửi một bản ghi dữ liệu mô phỏng.
-    * Bạn có thể chọn gửi tới topic `realtime` hoặc `test`(lưu ý nên chọn test vì realtime đang cập nhật xử lý từ luồng dữ liệu mô phỏng, lựa chọn realtime sẽ khó nhận ra đâu là câu gợi ý hệ thống đưa ra cho bản ghi mô phỏng tương ứng của mình).
-    * Điền các thông tin về thiết bị, trạng thái, môi trường,...
-    * Nhấn **Gửi Dữ Liệu**. Nếu bạn gửi tới topic `test`, kết quả gợi ý sẽ xuất hiện ở mục **Gợi ý Kiểm tra**.
-3.  **Xem thống kê:**
-    * Sử dụng mục **Thống Kê Chi Phí Năng Lượng**.
-    * Chọn nhà (Home ID), khoảng thời gian và chu kỳ (ngày/tuần/tháng).
-    * Nhấn **Xem Thống Kê** để xem biểu đồ chi phí năng lượng.
-
-## Cấu trúc thư mục/mã nguồn
-
-* `app_ui.py`: Chứa mã nguồn Flask cho giao diện người dùng, xử lý các yêu cầu HTTP, cung cấp Server-Sent Events (SSE) để hiển thị gợi ý thời gian thực và xử lý việc gửi dữ liệu thủ công.
-* `logic_gen_data.py`: Định nghĩa logic để sinh dữ liệu giả lập cho nhà thông minh, bao gồm hành vi người dùng, môi trường, trạng thái thiết bị.
-* `realtime_data_simulation.py`: Một Kafka Producer, sử dụng `logic_gen_data.py` để sinh dữ liệu và gửi liên tục đến topic `realtime-smarthome-data`.
-* `suggesttion_model.py`: Một Kafka Consumer/Producer. Nhận dữ liệu từ `realtime-smarthome-data`, sử dụng mô hình LightGBM để dự đoán công suất, tạo gợi ý và gửi đến topic `smarthome-suggestions`. Đồng thời, lưu dữ liệu đã xử lý vào file CSV và có khả năng huấn luyện lại mô hình.
-* `test_suggesttion_model.py`: Tương tự `suggesttion_model.py` nhưng hoạt động với các topic `smarthome-test-data` và `smarthome-test-suggestions`, dùng để xử lý dữ liệu được gửi từ form thủ công.
-* `Báo cáo dự án.txt`: File báo cáo chi tiết về dự án (định dạng LaTeX).
-* `data/`: Thư mục chứa các file dữ liệu lịch sử (`.csv`) được lưu trữ theo năm.
-* `templates/index.html`: File HTML (được `app_ui.py` tạo ra) cho giao diện người dùng.
-
+---
 ## Công nghệ sử dụng
 
 * **Ngôn ngữ lập trình:** Python
-* **Nền tảng xử lý dữ liệu:** Apache Kafka
-* **Web Framework:** Flask
-* **Thư viện học máy:** LightGBM, Scikit-learn
-* **Thư viện xử lý dữ liệu:** Pandas, Numpy
-* **Thư viện Kafka Python:** `kafka-python`
-* **Giao diện người dùng:** HTML, CSS, JavaScript (với Server-Sent Events và Chart.js)
+* **Giao diện Web:** Flask, HTML, JavaScript (SSE, Chart.js)
+* **Xử lý dữ liệu:** pandas, numpy, matplotlib
+* **Tiền xử lý:** LabelEncoder, OneHotEncoder, StandardScaler
+* **Mô hình học máy:** LightGBM, XGBoost, CatBoost, Linear Regression, Random Forest, Decision Tree
+* **Đánh giá mô hình:** MSE, MAE, R² (sklearn.metrics)
+* **Hệ thống xử lý luồng:** Apache Kafka (thông qua kafka-python)
 
-## Tác giả / Nhóm phát triển
+---
 
-* Hoàng Đình Hoàn (22024577)
-* Lưu Quang Khải (22024521)
-* Phùng Khôi Nguyên (22024503)
-* Nguyễn Thị Ánh Tuyết (22024523)
+## Cấu hình hệ thống Kafka
+![image](https://github.com/user-attachments/assets/90e1d3a4-0b00-4586-975d-015ad029acd7)
 
-Nhóm sinh viên Trường Đại học Công nghệ – Đại học Quốc gia Hà Nội, thực hiện đề tài trong khuôn khổ học phần Kỹ thuật và công nghệ dữ liệu lớn.
+Hệ thống sử dụng **1 Kafka broker** và **4 topic**, chia thành 2 nhóm:
 
-## Giấy phép
+### Dữ liệu thời gian thực (3 partitions/topic)
 
-Dự án này không có giấy phép được chỉ định.
+* `realtime-smarthome-data`: topic nhận dữ liệu từ các hộ gia đình (giả lập).
+* `smarthome-suggestions`: topic lưu gợi ý tiêu thụ tương ứng.
+
+### Dữ liệu kiểm thử (1 partition/topic)
+
+* `smarthome-test-data`: nhận bản ghi từ người dùng gửi qua giao diện.
+* `smarthome-test-suggestions`: chứa gợi ý tương ứng từ bản ghi kiểm thử.
+
+---
+## Cấu trúc thư mục dự án
+
+```plaintext
+.
+├── app_ui.py                        # Giao diện người dùng (UI)
+├── catboost_info/                  # Log huấn luyện CatBoost
+├── data/
+│   ├── data_2022.csv               # Dữ liệu huấn luyện ban đầu
+│   └── ...                         # Các file dữ liệu khác theo thời gian
+├── logic_gen_data.py              # Sinh dữ liệu giả lập cho 10 hộ gia đình
+├── model_version1.py              # So sánh mô hình (chưa có feature lịch sử)
+├── model_version2.py              # So sánh mô hình (có feature lịch sử tiêu thụ)
+├── notification_suggest.py        # Consumer gợi ý → gửi đến frontend
+├── realtime_data_simulation.py    # Kafka Producer gửi dữ liệu giả lập
+├── send_single_record_test_model.py # Gửi bản ghi test từ terminal
+├── suggesttion_model.py           # Train mô hình + xử lý dữ liệu realtime
+├── test_notification_suggest.py   # Kiểm thử quá trình gửi gợi ý
+├── test_suggesttion_model.py      # Kiểm thử dự đoán từ 1 bản ghi test
+├── templates/
+│   └── index.html                 # Giao diện HTML hiển thị trên web
+└── README.md                      # Tài liệu mô tả dự án
+```
+
+---
+
+## Cách sử dụng hệ thống
+
+1. **Khởi động Kafka & Zookeeper.**
+
+2. **Chạy các thành phần chính:**
+
+   ```bash
+   python suggesttion_model.py              # Train định kỳ + xử lý realtime
+   python notification_suggest.py           # Gửi gợi ý đến giao diện người dùng
+   python realtime_data_simulation.py       # Gửi dữ liệu giả lập vào Kafka
+   python app_ui.py                         # Chạy giao diện Flask
+   ```
+![image](https://github.com/user-attachments/assets/1cffc1fc-105c-4cc6-ba8b-27c793d9edb3)
+![image](https://github.com/user-attachments/assets/b3fda698-efbb-419a-904e-9b3627cc359a)
+![image](https://github.com/user-attachments/assets/1322ed78-3d4e-4cca-9549-c01d6cd8381f)
+![image](https://github.com/user-attachments/assets/e34917c3-658f-4527-992f-932246176c8a)
+![image](https://github.com/user-attachments/assets/6806ec03-e61c-4ea4-8bb2-cd802e32be84)
+
+
+3. **(Tùy chọn) Gửi bản ghi kiểm thử từ terminal:**
+
+   ```bash
+   python send_single_record_test_model.py  # Gửi 1 bản ghi kiểm tra
+   ```
+
+---
+
+
+## Nhóm phát triển
+
+* **Hoàng Đình Hoàn** – 22024577
+* **Lưu Quang Khải** – 22024521
+* **Phùng Khôi Nguyên** – 22024503
+* **Nguyễn Thị Ánh Tuyết** – 22024523
+
+> Sinh viên Trường Đại học Công nghệ – Đại học Quốc gia Hà Nội
+> Dự án thực hiện trong khuôn khổ học phần **Kỹ thuật và Công nghệ Dữ liệu Lớn**
+
+---
