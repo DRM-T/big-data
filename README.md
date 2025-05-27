@@ -43,10 +43,6 @@ Dự án tập trung phát triển một hệ thống ứng dụng công nghệ 
 
 ---
 
-Dưới đây là phần bổ sung cách tạo topic cho mục **Cấu hình hệ thống Kafka** của bạn, giữ phong cách chuyên nghiệp và rõ ràng:
-
----
-
 ## Cấu hình hệ thống Kafka
 
 ![Kafka System Architecture](https://github.com/user-attachments/assets/90e1d3a4-0b00-4586-975d-015ad029acd7)
